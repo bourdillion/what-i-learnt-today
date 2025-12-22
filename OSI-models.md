@@ -18,4 +18,3 @@ There are different level or layers of OSI, and each of this layers have group o
 
 6. **Data link layer:** Receives IP packets from the network layer, here physical addressing is done to the data packet to form a frame, e.g of physical address is a mac address of each devices. local connection between two computers happens via the help of mac address.
 
-7. **Physical layer:** converts the binary sequence received via data link layer to signals, which is used by the application layer
