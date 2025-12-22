@@ -12,7 +12,7 @@ There are different level or layers of OSI, and each of this layers have group o
 
 3. **Session layer:** Helps in managing sessions or connection between application, helps in the starting, maintaining and terminating of sessions. used in authentication and authorization.
 
-4. **Transport layer:** Ensure reliable data transfers between application, handles error recovery and flow control. it involves 3 main steps; a. segmentation - here data received from the session layers are broken down into packets with each having a packet number and a sequence number. b. flow control - mainly syncing data movement c. error control. Examples of transport layer protocols include connection-oriented Transmission control protocol(TCP)  and connectionless User Datagram Protocol(UDP). UDP is faster than TCP because UDP does not provide any feedback
+4. **Transport layer:** Ensure reliable data transfers between application, handles error recovery and flow control. it involves 3 main steps; a. segmentation - here data received from the session layers are broken down into packets with each having a packet number and a sequence number. b. flow control - mainly syncing data movement c. error control. Examples of transport layer protocols include connection-oriented Transmission control protocol(TCP)  and connectionless User Datagram Protocol(UDP). UDP is faster than TCP because UDP does not provide any feedback.
 
 5. **Network layer:** Determines how data moves between devices, and across multiple network. it does three major stuff: a. Logical addressing b. Routing - how data moves, it depends on ip address gotten from stage a, and mask c. path determination - network protocol determine the best path.
 
