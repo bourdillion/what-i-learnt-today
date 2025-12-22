@@ -8,7 +8,7 @@ The point is simple: even though the initializer function is implemented in the 
 
 Now, since constructors are called during contract creation, OpenZeppelin provides a small helper function,     `_disableInitializers()`, which updates the initialization state of the implementation contract as “initialized”, without actually calling the initialize function where we add our custom settings.
 
-Because Initializable prevents an initializer from being called more than once, this means the initialize function on the implementation contract cannot be called anymore. At the same time, it can still be called on the proxy, which has its own storage.
+Because Initializable prevents an initializer from being called more than once, this means the initialize function on the implementation contract cannot be called anymore. At the same time, it can still be called on the proxy, which has its own storage
 
 In other words, `_disableInitializers()` locks the implementation contract for safety, preventing anyone from hijacking it, while allowing the proxy to be properly initialized with the settings we want.
 
