@@ -10,4 +10,4 @@ Now, since constructors are called during contract creation, OpenZeppelin provid
 
 Because Initializable prevents an initializer from being called more than once, this means the initialize function on the implementation contract cannot be called anymore. At the same time, it can still be called on the proxy, which has its own storage.
 
-In other words, `_disableInitializers()` locks the implementation contract for safety, preventing anyone from hijacking it, while allowing the proxy to be properly initialized with the settings we want.
+
