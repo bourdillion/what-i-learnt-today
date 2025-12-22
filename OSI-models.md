@@ -17,6 +17,7 @@ There are different level or layers of OSI, and each of this layers have group o
 5. **Network layer:** Determines how data moves between devices, and across multiple network. it does three major stuff: a. Logical addressing b. Routing - how data moves, it depends on ip address gotten from stage a, and mask c. path determination - network protocol determine the best path.
 
 6. **Data link layer:** Receives IP packets from the network layer, here physical addressing is done to the data packet to form a frame, e.g of physical address is a mac address of each devices. local connection between two computers happens via the help of mac address.
+
 7. **Physical layer:** converts the binary sequence received via data link layer to signals, which is used by the application layer
 
 
