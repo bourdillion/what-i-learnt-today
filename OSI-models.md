@@ -6,7 +6,7 @@ The OSI model (Open Systems Interconnection model) is a conceptual framework use
 
 There are different level or layers of OSI, and each of this layers have group of application at their different levels.
 
-1. **Application layers:** This standardizes how different application in different OS works, it include protocols like Http/s for web rendering, smtp for messaging, ftp for file transfer etc
+1. **Application layers:** This standardizes how different application in different OS works, it include protocols like Http/s for web rendering, smtp for messaging, ftp for file transfer etc.
    
 2. **Presentation layer:** This does 3 major stuff - a. Translation - mainly for translating ASCII to EBCDIC b. compression - either in the lossless or loosy way c. Encryption/decryption.
 
